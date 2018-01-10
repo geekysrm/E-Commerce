@@ -1,0 +1,8 @@
+.ant-carousel .slick-slide {
+  height: 450px;
+  line-height: 450px;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}

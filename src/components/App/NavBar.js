@@ -13,7 +13,7 @@ const NavBar = () => (
 
 
             <Menu
-                
+
                 mode="horizontal"
                 defaultSelectedKeys={['2']}
                 style={{ lineHeight: '70px',width: '100%' }}
@@ -25,8 +25,8 @@ const NavBar = () => (
                 <div >
             <img className="logo" src="./assets/watch-logo.png" />
                 </div>
-               
-    
+
+
             <SubMenu title={<span><Icon type="man" />{<span className="category">Men</span>}</span>}>
                 <SubMenu style={{ width: '400px' }} key="sub2" title={<span ><Icon type="clock-circle" /><span style={{ width: '250px' }}>Luxury Watches</span></span>}>
                     <Menu.Item key="5">Audemars Piguet</Menu.Item>
@@ -132,25 +132,25 @@ const NavBar = () => (
                 <Menu.Item key="11">Blancpain</Menu.Item>
             </SubMenu>
         </SubMenu>
-             
+
         <Menu.Item key="1" disabled={true} style={{ cursor: 'default' }}>
-            
+
         </Menu.Item>
 
         <Search
             placeholder="Search for watches"
-            style={{ width: '500px', marginLeft:200,marginRight:50}}
+            style={{ width: '500px', marginLeft:10,marginRight:50}}
             onSearch={value => console.log(value)}
             enterButton
         />
-      
+
         <Button type="secondary" shape="circle" icon="user-add" size='large' />
         <Button type="secondary" shape="circle" icon="phone" size='large' style={{marginLeft:10}} />
 
             </Menu>
-        
 
-    
+
+
 
 );
 

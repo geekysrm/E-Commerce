@@ -3,23 +3,23 @@
   height: 50px;
 
   margin: 7px 9px 5px 0;
-  
+
   float: left;
 }
 
 #title {
 font-family: 'Audiowide', cursive;
     color:rgba(12, 46, 75, 0.911);
-    font-size: 250%;
-    
+    font-size: 200%;
+
 }
 
 .category {
-    font-size: 160%;
+    font-size: 120%;
     font-weight: bold;
 }
 
 .category-hidden {
     color: white;
-   
+
 }

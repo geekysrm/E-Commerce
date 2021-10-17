@@ -2,14 +2,26 @@ import React from 'react';
 import 'antd/dist/antd.css';
 import { Button } from 'antd';
 import { Card, Icon, Col, Row } from 'antd';
-const { Meta } = Card;
 
-class DealsOfTheDay extends React.Component
-{
-  render()
-  {
+const styles={
+  col:{
+    width: 250
+  },
+  card:{
+    width: 240
+  },
+  icon:{
+    fontSize: 30, color: '#08c'
+  },
+  image:{
+    height: 370 , width: "100%"
+  }
+}
+
+export default function DealsOfTheDay() {
     return (
-      <div style={{ background: '#ECECEC', padding: '30px' }}>
+        <div>
+            <div style={{ background: '#ECECEC', padding: '30px' }}>
         <Row gutter={10} style={{padding: 10}}>
           <Col span={8} style={{ width: '100%' }}>
             <Card bordered={false}>
@@ -81,23 +93,10 @@ class DealsOfTheDay extends React.Component
 
         </Row>
       </div>
-    );
-  }
+        </div>
+    )
 }
 
-const styles={
-  col:{
-    width: 250
-  },
-  card:{
-    width: 240
-  },
-  icon:{
-    fontSize: 30, color: '#08c'
-  },
-  image:{
-    height: 370 , width: "100%"
-  }
-}
+
 
 export default DealsOfTheDay;

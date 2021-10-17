@@ -96,7 +96,3 @@ export default function DealsOfTheDay() {
         </div>
     )
 }
-
-
-
-export default DealsOfTheDay;
